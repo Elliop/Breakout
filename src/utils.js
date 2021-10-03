@@ -2,14 +2,10 @@ export const getRange = (length) => [...Array(length).keys()];
 
 export const getRandomFrom = (...args) =>
   args[Math.floor(Math.random() * args.length)];
-
-export const flatten = (arrays) => {
+export const flatten = (arrays) =>
   arrays.reduce((acc, row) => [...acc, ...row], []);
-};
 
-export const registerListner = (eventName, handler) => {
+export const registerListener = (eventName, handler) => {
   window.addEventListener(eventName, handler);
-  return () => {
-    window.removeEventListener(eventName, handler);
-  };
+  return () => window.removeEventListener(eventName, handler);
 };
