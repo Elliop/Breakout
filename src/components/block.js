@@ -3,7 +3,7 @@ import { getRange } from "../utils";
 import { BLOCK_MAX_DENSITY } from "../game/levels";
 
 const colors = getRange(BLOCK_MAX_DENSITY).map(
-  (i) => `rgba(26, 188, 156, ${1 / (BLOCK_MAX_DENSITY - i)})`
+  (i) => `rgba(25, 70, 148, ${1 / (BLOCK_MAX_DENSITY - i)})`
 );
 
 const Block = ({ x, y, width, height, density }) => (

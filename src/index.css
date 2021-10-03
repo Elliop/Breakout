@@ -1,13 +1,15 @@
 html {
   height: 100%;
   --text-color: #ecf0f1;
-  --action-color: #e74c3c;
+  --action-color: #971313;
 }
+
 * {
   box-sizing: border-box;
   outline: 0;
   margin: 0;
 }
+
 body {
   height: 100%;
   margin: 0;
@@ -22,10 +24,15 @@ body {
   height: 100%;
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 .page {
   width: 100%;
   height: 100%;
-  background: #2c3e50;
+  background: #1d2024;
   padding: 60px;
 }
 
@@ -37,7 +44,7 @@ body {
   justify-content: center;
 }
 
-.screen {
+.scene {
   border: 2px solid var(--text-color);
 }
 
@@ -47,7 +54,7 @@ body {
 }
 
 .paddle {
-  fill: #3498db;
+  fill: #7a97be;
 }
 
 .ball {
