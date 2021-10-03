@@ -124,7 +124,7 @@ const reducer = (state, { type, payload }) => {
   return handler(state, payload);
 };
 
-export default (containerSize) => {
+const Scene = (containerSize) => {
   const [state, dispatch] = useReducer(reducer, containerSize, getInitialState);
   const act = (type, payload) => dispatch({ type, payload });
   const {
@@ -189,3 +189,5 @@ export default (containerSize) => {
     </svg>
   );
 };
+
+export default Scene;
