@@ -163,7 +163,11 @@ export default (containerSize) => {
   const viewWidth = projectDistance(width);
   const unit = projectDistance(ball.radius);
   return (
-    <svg width={viewWidth} height={projectDistance(height)} className="scene">
+    <svg
+      width={viewWidth}
+      height={projectDistance(height) + 10}
+      className="scene"
+    >
       <Level unit={unit} level={level + 1} />
       <Lives lives={lives} containerWidth={viewWidth} unit={unit} />
       {blocks.map(({ density, position, width, height }) => (

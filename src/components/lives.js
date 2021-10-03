@@ -6,7 +6,7 @@ const Lives = ({ lives, containerWidth, unit }) => {
   return getRange(lives).map((i) => (
     <rect
       className="life"
-      rx={unit / 4}
+      rx={unit / 2}
       height={unit}
       width={width}
       y={unit}
