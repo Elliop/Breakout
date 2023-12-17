@@ -1,6 +1,6 @@
 # Breakout
 
-## [Live Demo](https://elliop.github.io/Breakout/)
+## [Live Demo](elliop-breakout.vercel.app)
 
 ## Run locally
 
