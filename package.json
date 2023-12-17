@@ -1,6 +1,6 @@
 {
   "homepage": "https://Elliop.github.io/Breakout",
-  "name": "my-app",
+  "name": "breakout-game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
